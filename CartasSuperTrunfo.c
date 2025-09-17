@@ -17,8 +17,8 @@ int main(){
   char estado1, estado2;
   char codigoCarta1[4], codigoCarta2[4];
   char nomeCidade1[20], nomeCidade2[20];
-  int pontosTuristicos1, pontosTuristicos2;
-  float populacao1, pib1, area1, pib2, area2, populacao2;
+  int pontosTuristicos1, pontosTuristicos2, populacao1, populacao2;
+  float pib1, area1, pib2, area2;
 
   // Dados Carta 01:
     //Estado
@@ -35,7 +35,7 @@ int main(){
 
     //População
     printf("Insira a população: \n");
-    scanf("%f", &populacao1);
+    scanf("%d", &populacao1);
 
     // Area em km²
     printf("Insira a area(km²): \n");
@@ -66,7 +66,7 @@ int main(){
 
       // População
       printf("Insira a população: \n");
-      scanf("%f", &populacao2);
+      scanf("%d", &populacao2);
 
       // Area em km²
       printf("Insira a area(km²): \n");
@@ -87,7 +87,7 @@ int main(){
       printf("Código: %s\n", codigoCarta1);
       printf("Cidade: %s\n", nomeCidade1);
       // %.0lf -> Sem casa decimal
-      printf("População: %.0f habitantes\n", populacao1);
+      printf("População: %.d habitantes\n", populacao1);
       printf("Área: %.0f Km² \n", area1);
       printf("PIB: R$ %.0f milhões \n", pib1);
       printf("Quantidade de pontos turísticos: %d\n", pontosTuristicos1);
@@ -97,7 +97,7 @@ int main(){
       printf("Código: %s\n", codigoCarta2);
       printf("Cidade: %s\n", nomeCidade2);
       // %.0lf -> Sem casa decimal
-      printf("População: %.0f habitantes\n", populacao2);
+      printf("População: %.d habitantes\n", populacao2);
       printf("Área: %.0f Km² \n", area2);
       printf("PIB: R$ %.0f milhões \n", pib2);
       printf("Quantidade de pontos turísticos: %d\n", pontosTuristicos2);
