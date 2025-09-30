@@ -112,7 +112,7 @@ int main(){
       printf("Estado: %c\n", estado2);
       printf("Código: %s\n", codigoCarta2);
       printf("Cidade: %s\n", nomeCidade2);
-      printf("População: %lu habitantes\n", populacao2);
+      printf("População: %lu habitantes\n", populacao1);
       printf("Área: %.2f Km² \n", area2);
       printf("PIB: R$ %.2f bilhões\n", pib2);
       printf("Quantidade de pontos turísticos: %d\n", pontosTuristicos2);
